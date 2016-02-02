@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+{ margin:0; padding:0; border:0; outline:0;
+ font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit;
+ vertical-align:baseline; }
+@font-face {
+    font-family: "DidactGothicRegular";
+    src: url("fonts/DidactGothicRegular/DidactGothicRegular.eot");
+    src: url("fonts/DidactGothicRegular/DidactGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/DidactGothicRegular/DidactGothicRegular.woff") format("woff"),
+    url("fonts/DidactGothicRegular/DidactGothicRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Shanti";
+    src: url("fonts/DidactGothicRegular/shanti_[allfont.ru].ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{height: 100%;background-color: white; font-family: "DidactGothicRegular";height: auto;}
+.wrapper{margin:0 auto;height: auto;width: 980px;}
+.mainlogo{padding: 15px 0px 0px 30px;}
+.logo{float: left;text-transform:uppercase; background:linear-gradient(to top, #447200, #96bb00);-pie-background: linear-gradient(to top, #447200, #96bb00);border-radius:10px 10px 10px 10px;color:white;padding:1px 15px 1px 15px;font-size: 47px;font-family: "DidactGothicRegular";behavior: url("cross/PIE.htc");position: relative;}
+.logotext{padding-left: 1px;font-size: 47px;}
+nav ul{float: right;}
+nav li{display: inline-block;background-color:#f2f2f2;height: 45px;border-radius:15px 15px 0px 0px;margin-left:-3px;behavior: url("cross/PIE.htc");position: relative;}
+nav ul li a{padding:40px 30px 20px 34px;vertical-align:middle;text-decoration: none;color:black;}
+nav li:hover{background-color:#96bb00;}
+.slider{position: relative;width:980px;height:413px;overflow: hidden;}
+.slidertext{position: absolute;left: 8%;top: 5%;color: white;font-size: 75px;}
+.slidertext1{position: absolute;left: 8%;top: 21%;color: black;font-size: 46px;}
+.slidertext2{position: absolute;left: 8%;top: 48%;width: 350px;height: 79px;color: white;font-size: 20px;font-weight: 400;line-height: 20px;}
+.button{position: absolute;left: 8%;top: 75%;border-radius:7px 7px 7px 7px;color: #3d6c00;font-size: 24px;text-transform: uppercase;padding:3px 13px 3px 13px;background-color:white;text-decoration: none;box-shadow: 0 5px 5px black;behavior: url("cross/PIE.htc");-webkit-box-shadow:0 5px 5px black;}
+.product{position: absolute;left: 55%; top: 10%;}
+.content{height: auto;padding: 30px;overflow: hidden;background-image:url("img/Background.jpg");}
+aside{width: 280px;float: left;}
+aside p {color:#818181;  width: 180px; height: 70px; font-family: Arial; font-size: 13px;  font-weight: 400; line-height: 18px;}
+aside h2{color: black;font-size: 36px;font-family: "Shanti", arial;}
+.manager, .manager1{float: left;}
+aside p, aside h3{padding-left: 130px;}
+.block{padding-bottom: 25px; font-family: Arial; font-size: 13px; }
+h3{padding-bottom: 8px;}
+h2{padding-bottom: 20px;}
+section{width: 570px;float: right;padding-top: 10px;}
+.block1 h2{color: black;font-family: "Shanti", arial;font-size: 36px; font-weight: 400;line-height: 20px;}
+.block1{margin-bottom: 60px;    font-size: 13px;}
+.block1 p{color:#818181;    width: 430px;padding-left: 100px;}
+.black{color: black;    font-weight: 400;  line-height: 24px;font-weight:bold;}
+section p a{color:black;}
+.buttoninfo{float: right;text-decoration: none;font-weight:bold;color: black;background:linear-gradient(to top, #88ae8e , #cce8d1);-pie-background:linear-gradient(to top, #88ae8e, #cce8d1);padding: 5px 25px 5px 25px;border-radius:5px 5px 5px 5px ;box-shadow: 0 3px 5px black;position: relative;}
+footer{background-color:#484848;}
+footer p{padding:25px;text-align:center;    color: #aaa;}
+footer a{color:white;}
+.baranka{display:none;}
+
+
+
+
+
+																/*Медиа запросы однако*/
+@media screen and (max-width:990px), handheld and (max-width:990px){
+.slider{width: auto;padding:5px;}
+nav ul{float: none;padding-top: 20px;padding-left: 11px;}
+.content{width: auto;height:auto;}
+.wrapper{width: auto;}
+footer{width: auto;height:auto;}
+
+
+}
+
+
+@media screen and (max-width:950px), handheld and (max-width:950px){
+
+section{float: none;width: 100%;text-align:center;}
+aside{display:inline-block;text-align:center;width:100%}
+.block{width: 30%;display:inline-block;text-align:center;padding-left: 10px;}
+h2{text-align:center;width: 100%;}
+aside p, aside h3{padding-left: 55px;clear: both;}
+.manager{float: none;padding-left: 40px;}
+nav li{background-color:#96bb00;border-radius:15px 15px 15px 15px;}
+
+}
+
+@media screen and (max-width:850px), handheld and (max-width:850px){
+.block{width: 40%;}
+
+
+
+}
+
+@media screen and (max-width:800px), handheld and (max-width:800px){
+	.slidertext{display:none;}
+	.slidertext1{display:none;}
+	.slidertext2{display:none;}
+	.product{left: 30%; top: 4%;}
+	.button{left: 45%;top: 80%;}
+}
+
+@media screen and (max-width:750px), handheld and (max-width:750px){
+nav ul li{width: 100%;text-align:center;border-radius:0px 0px 0px 0px;background-color:white;}
+.baranka{display:block;}
+
+
+}
+
+@media screen and (max-width:600px), handheld and (max-width:600px){
+.hide{display:none;}
+.block1{float: none;width: auto;height: 100px;padding-bottom: 20px;text-align:center;}
+.block1 p{display:none;}
+.block1 img{display:none;}
+.buttoninfo{float: none;vertical-align:middle;width: 50%;}
+
+}
+@media screen and (max-width:550px), handheld and (max-width:550px){
+.Heder{display:none;}
+.product{position: absolute;left: 20%; top: 10%;width: auto;}
+.block1 h2{margin-bottom: 20px;}
+
+}
+@media screen and (max-width:500px), handheld and (max-width:500px){
+.product{position: absolute;left: 10%; top: 10%;width: auto;}
+.block{width: 50%;text-align:center;padding-left: 20px;vertical-align:middle;}
+.block p{text-align:center;vertical-align:middle;padding-left: 40px;width: 100%;}
+.block{width: 100%;margin-left: -40px;}
+.aside h2{text-align:center;vertical-align:middle;}
+}
+@media screen and (max-width:450px), handheld and (max-width:450px){
+.product{position: absolute;left: 1%; top: 10%;width: auto;}
+.block1{width: 100%;float: left;}
+.block{width: 100%;margin-left: -40px;}
+.block1 h2{margin-bottom: 20px;line-height:40px;}
+}

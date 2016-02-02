@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: 'notcouriersans';
+    src: url('notcouriersans.eot');
+    src: url('notcouriersans.eot?#iefix') format('embedded-opentype'),
+         url('notcouriersans.woff') format('woff'),
+         url('notcouriersans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'notcouriersans-bold';
+    src: url('notcouriersans-bold.eot');
+    src: url('notcouriersans-bold.eot?#iefix') format('embedded-opentype'),
+         url('notcouriersans-bold.woff') format('woff'),
+         url('notcouriersans-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

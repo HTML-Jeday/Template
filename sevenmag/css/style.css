@@ -1,0 +1,22 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{ margin:0; padding:0; border:0; outline:0;
+ font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; vertical-align:baseline; }
+
+
+
+ body{background:url(../images/body.png) no-repeat;background-size: cover;}
+.wrapper{max-width: 1400px;}
+.navbar-wrapper {position: absolute;top:40px;right:0;left:140px;z-index:20;max-width:1259px;}
+#navbar{font-size: 14px;}
+li a{margin-left: 25px;color:white !important;}
+.navbar-form{margin-left: 100px;padding: 0 0 20px 5px;}
+.navbar{height: 100px;}
+.nav{margin-left: -40px;width: auto;padding:20px 5px  40px 60px;}
+.form-group .form-control{width: 400px;height: 55px;text-align: center;}
+.shape1{position: absolute;top: 32px;left: 300px;}
+.shape2{position: absolute;top: 32px;left: 395px;}
+.shape3{position: absolute;top: 32px;left: 490px;}
+.shape4{position: absolute;top: 32px;left: 610px;}
+.Categoriesbutton{position: absolute;top: 40px;left: 275px;}
+.socialbutton
+.bottom-header{background-color: #f3f3f3;height: 40px;}
