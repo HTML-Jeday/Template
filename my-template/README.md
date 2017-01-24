@@ -1,5 +1,7 @@
-# Gulp Starter for CSS Tricks Tutorial  
+# Gulp starter pack for development
 
-This repo is a gulp starter for this CSS Tricks tutorial. 
+in begining , in command line "npm install" for project file
+second to begin we have to "gulp" in command line for project file
+third we have command build for optimized our html,css,js
 
-Remember to do run the `npm install` command after cloning this repo :) 
+
